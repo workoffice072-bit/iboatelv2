@@ -10,34 +10,42 @@ use Filament\Actions\ViewAction;
 use Filament\Tables\Table;
 use Filament\Tables;
 
+
 class TicketsTable
 {
     public static function configure(Table $table): Table
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('id'),
-                Tables\Columns\TextColumn::make('subject')->searchable(),
+                 Tables\Columns\TextColumn::make('subject')->searchable()->limit(30),
 
-                Tables\Columns\BadgeColumn::make('status')
-                    ->colors([
-                        'success' => 'open',
-                        'warning' => 'pending',
-                        'danger' => 'closed',
-                    ]),
+            Tables\Columns\TextColumn::make('user.name')
+                ->label('User')
+                ->sortable(),
 
-                Tables\Columns\BadgeColumn::make('priority'),
-                Tables\Columns\TextColumn::make('user.name'),
+            Tables\Columns\BadgeColumn::make('priority')
+                ->colors([
+                    'success' => 'low',
+                    'warning' => 'medium',
+                    'danger' => 'high',
+                ]),
+
+            Tables\Columns\BadgeColumn::make('status')
+                ->colors([
+                    'success' => 'open',
+                    'warning' => 'pending',
+                    'danger' => 'closed',
+                ]),
+
+            Tables\Columns\TextColumn::make('created_at')->since(),
             ])
             ->filters([
                 //
             ])
             ->recordActions([
-                ViewAction::make(),
+              ViewAction::make(),
 
-                Action::make('close')
-                    ->action(fn ($record) => $record->update(['status' => 'closed']))
-                    ->color('danger')
+               
             ])
             ->toolbarActions([
                 BulkActionGroup::make([

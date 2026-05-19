@@ -23,6 +23,9 @@ class TicketResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedChatBubbleLeftRight;
 
     protected static ?string $recordTitleAttribute = 'Ticket';
+    
+    protected static string|\UnitEnum|null $navigationGroup = 'Support Management';
+    protected static ?int $navigationSort = 4;
 
     public static function form(Schema $schema): Schema
     {
@@ -62,6 +65,7 @@ class TicketResource extends Resource
             'index' => ListTickets::route('/'),
             'create' => CreateTicket::route('/create'),
             'edit' => EditTicket::route('/{record}/edit'),
+            'view' => Pages\ViewTicket::route('/{record}'),
         ];
     }
 }

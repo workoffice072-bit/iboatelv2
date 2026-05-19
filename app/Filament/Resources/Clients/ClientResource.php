@@ -20,17 +20,20 @@ class ClientResource extends Resource
 {
     protected static ?string $model = \App\Models\User::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedUser;
+   
+    protected static string|\UnitEnum|null $navigationGroup = 'User Management';
+    protected static ?int $navigationSort = 1;
 
-    protected static ?string $recordTitleAttribute = 'Client';
-    protected static ?string $navigationLabel = 'Client';
+    protected static ?string $recordTitleAttribute = 'Guest';
+    protected static ?string $navigationLabel = 'Guest';
     public static function form(Schema $schema): Schema
     {
         return ClientForm::configure($schema);
     }
     public static function getBreadcrumb(): string
     {
-        return 'Client';
+        return 'Guest';
     }
     public static function canCreate(): bool
     {

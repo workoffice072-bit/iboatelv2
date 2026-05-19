@@ -1,0 +1,2033 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:8000/register/guest -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="Fz0QbyAGcgg8mUWzKV3MaXtjD4HndJuakt3LIVFH">
+
+        <title>Laravel</title>
+
+        <!-- Fonts -->
+        <link href="./Laravel_files/googleFont.css" rel="stylesheet">
+        <link rel="stylesheet" href="./Laravel_files/all.min.css">
+
+        <link rel="stylesheet" href="./Laravel_files/flatpickr.min.css">
+        <!-- Select2 CSS -->
+        <link href="./Laravel_files/select2.min.css" rel="stylesheet">
+    
+        <!-- Scripts -->
+        <link rel="preload" as="style" href="./Laravel_files/app-DD6YpNSa.css"><link rel="modulepreload" as="script" href="./Laravel_files/app-BXDIKfr3.js"><link rel="stylesheet" href="./Laravel_files/app-DD6YpNSa.css" data-navigate-track="reload"><script type="module" src="./Laravel_files/app-BXDIKfr3.js" data-navigate-track="reload"></script>
+        <link rel="stylesheet" href="./Laravel_files/home.css">
+        <link rel="stylesheet" href="./Laravel_files/login.css">
+        <link rel="stylesheet" href="./Laravel_files/signup.css">
+            </head>
+    <body class="font-inter bg-gradient-to-br from-[#f0f7fc] to-[#e8f2f8]" cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1290.0" data-gr-ext-installed="">
+         <!-- ==================== HEADER  ==================== -->
+         <header class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
+    <div class="max-w-[1440px] mx-auto px-5 py-3.5 md:px-8 lg:px-10">
+        <div class="flex items-center justify-between gap-4">
+            <a href="http://127.0.0.1:8000/" class="flex items-center gap-2.5 group shrink-0"><img src="./Laravel_files/1672138852.png" alt="iBoatel Logo" class="navbar-logo"></a>
+                    
+            <nav class="hidden lg:flex items-center gap-5 xl:gap-7">
+                <a href="http://127.0.0.1:8000/" class="nav-link font-semibold py-1 text-gray-700 hover:text-brand">
+    Home
+</a>
+                <div class="dropdown-group"><button class="flex items-center gap-1.5 text-gray-700 hover:text-brand font-semibold py-1 cursor-pointer bg-transparent border-none">Book
+                        Now <i class="fas fa-chevron-down text-[10px] ml-0.5"></i></button>
+                    <div class="dropdown-menu">
+                        <div class="py-2"><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="yacht-charter"><i class="fas fa-ship w-5 text-brand"></i><span>Yacht
+                                    charter</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="boatel"><i class="fas fa-bed w-5 text-brand"></i><span>Boatel (sleep on
+                                    boat)</span></a></div>
+                    </div>
+                </div>
+                <div class="dropdown-group"><button class="flex items-center gap-1.5 text-gray-700 hover:text-brand font-semibold py-1 cursor-pointer bg-transparent border-none">Boat
+                        types <i class="fas fa-chevron-down text-[10px] ml-0.5"></i></button>
+                    <div class="dropdown-menu">
+                        <div class="py-2"><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="catamarans"><i class="fas fa-sailboat w-5 text-brand"></i><span>Catamarans</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="houseboats"><i class="fas fa-home w-5 text-brand"></i><span>Houseboats</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="motorboats"><i class="fas fa-tachometer-alt w-5 text-brand"></i><span>Motorboats</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10 hover:text-brand" data-page="sailboats"><i class="fas fa-wind w-5 text-brand"></i><span>Sailboats</span></a></div>
+                    </div>
+                </div>
+                <a href="http://127.0.0.1:8000/register/guest#" class="nav-link text-gray-700 hover:text-brand font-semibold py-1" data-page="list-your-boat">List your boat</a>
+                <a href="http://127.0.0.1:8000/register/guest#" class="nav-link text-gray-700 hover:text-brand font-semibold py-1 relative" data-page="help">Help</a>
+            </nav>
+            <div class="hidden lg:flex items-center gap-2">
+                <div class="dropdown-group"><button class="flex items-center gap-1.5 px-3 py-2 rounded-xl text-gray-700 hover:text-brand hover:bg-gray-50"><i class="fas fa-globe text-sm"></i><span class="font-semibold text-sm">EN</span><i class="fas fa-chevron-down text-[10px]"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right min-w-[160px]">
+                        <div class="py-1"><a href="http://127.0.0.1:8000/register/guest#" data-lang="en" data-lang-label="English" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>🇬🇧</span>
+                                English</a><a href="http://127.0.0.1:8000/register/guest#" data-lang="fr" data-lang-label="Français" class="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>🇫🇷</span>
+                                Français</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown-group"><button class="flex items-center gap-1.5 px-3 py-2 rounded-xl text-gray-700 hover:text-brand hover:bg-gray-50"><i class="fas fa-coins text-sm"></i><span class="font-semibold text-sm">EUR</span><i class="fas fa-chevron-down text-[10px]"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right min-w-[180px]">
+                        <div class="py-1"><a href="http://127.0.0.1:8000/register/guest#" data-currency="eur" data-currency-label="Euro (EUR)" class="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>💶
+                                    Euro (EUR)</span><span class="text-xs text-gray-400">€</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="gbp" data-currency-label="Pound (GBP)" class="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>💷
+                                    Pound (GBP)</span><span class="text-xs text-gray-400">£</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="usd" data-currency-label="Dollar (USD)" class="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>💵
+                                    Dollar (USD)</span><span class="text-xs text-gray-400">$</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="inr" data-currency-label="Rupee (INR)" class="flex items-center justify-between px-4 py-2.5 text-sm text-gray-700 hover:bg-brand/10"><span>🇮🇳
+                                    Rupee (INR)</span><span class="text-xs text-gray-400">₹</span></a></div>
+                    </div>
+                </div>
+                <div class="h-6 w-px bg-gray-200 mx-1"></div>
+                
+                <a href="http://127.0.0.1:8000/login" class="px-4 py-2 rounded-xl font-semibold inline-block
+                text-gray-700 hover:text-brand hover:bg-gray-50">
+                 
+                 Login
+             </a>
+               <a href="http://127.0.0.1:8000/register">
+                 <button class="px-5 py-2 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-white font-semibold shadow-md hover:shadow-lg hover:scale-105">Sign
+                    up</button>
+               </a>
+            </div>
+            <button id="mobileMenuBtn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl text-gray-700 hover:bg-gray-100"><i class="fas fa-bars text-xl"></i></button>
+        </div>
+        <div id="mobileMenu" class="lg:hidden mobile-menu overflow-hidden max-h-0 opacity-0 invisible mt-3">
+            <div class="py-4 space-y-2 border-t border-gray-100"><a href="http://127.0.0.1:8000/register/index.html" class="mobile-nav-link block py-2.5 px-2 text-gray-700 hover:text-brand font-semibold active" data-page="home">Home</a>
+                <div class="mobile-dropdown-item"><button class="mobile-dropdown-btn w-full py-2.5 px-2 text-left text-gray-700 hover:text-brand font-semibold" data-dropdown="bookNowMobile"><span>Book Now</span><i class="fas fa-chevron-down text-xs transition-transform duration-300" id="bookNowMobile-icon"></i></button>
+                    <div class="mobile-submenu ml-4" id="bookNowMobile-menu"><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="yacht-charter"><i class="fas fa-ship w-5 text-brand"></i><span>Yacht
+                                charter</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="boatel"><i class="fas fa-bed w-5 text-brand"></i><span>Boatel (sleep on
+                                boat)</span></a></div>
+                </div>
+                <div class="mobile-dropdown-item"><button class="mobile-dropdown-btn w-full py-2.5 px-2 text-left text-gray-700 hover:text-brand font-semibold" data-dropdown="boatTypesMobile"><span>Boat types</span><i class="fas fa-chevron-down text-xs transition-transform duration-300" id="boatTypesMobile-icon"></i></button>
+                    <div class="mobile-submenu ml-4" id="boatTypesMobile-menu"><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="catamarans"><i class="fas fa-sailboat w-5 text-brand"></i><span>Catamarans</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="houseboats"><i class="fas fa-home w-5 text-brand"></i><span>Houseboats</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="motorboats"><i class="fas fa-tachometer-alt w-5 text-brand"></i><span>Motorboats</span></a><a href="http://127.0.0.1:8000/register/guest#" class="flex items-center gap-3 px-3 py-3 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg" data-page="sailboats"><i class="fas fa-wind w-5 text-brand"></i><span>Sailboats</span></a></div>
+                </div><a href="http://127.0.0.1:8000/register/guest#" class="mobile-nav-link block py-2.5 px-2 text-gray-700 hover:text-brand font-semibold" data-page="list-your-boat">List your boat</a><a href="http://127.0.0.1:8000/register/guest#" class="mobile-nav-link block py-2.5 px-2 text-gray-700 hover:text-brand font-semibold" data-page="rewards">Rewards <span class="text-[10px] bg-brand text-white px-1.5 py-0.5 rounded-full ml-2">NEW</span></a>
+                <div class="pt-4 mt-2 border-t border-gray-100 space-y-3">
+                    <div class="mobile-dropdown-item"><button class="mobile-dropdown-btn w-full py-2.5 px-2 text-left text-gray-700 hover:text-brand font-medium" data-dropdown="langMobile">
+                            <div class="flex items-center gap-3"><i class="fas fa-globe text-gray-500"></i><span>Language</span><span class="text-xs text-gray-400 ml-auto" id="selectedLangLabel">English</span>
+                            </div><i class="fas fa-chevron-down text-xs transition-transform duration-300" id="langMobile-icon"></i>
+                        </button>
+                        <div class="mobile-submenu ml-4" id="langMobile-menu"><a href="http://127.0.0.1:8000/register/guest#" data-lang="en" data-lang-label="English" class="flex items-center gap-2 px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>🇬🇧</span>
+                                English</a><a href="http://127.0.0.1:8000/register/guest#" data-lang="fr" data-lang-label="Français" class="flex items-center gap-2 px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>🇫🇷</span>
+                                Français</a></div>
+                    </div>
+                    <div class="mobile-dropdown-item"><button class="mobile-dropdown-btn w-full py-2.5 px-2 text-left text-gray-700 hover:text-brand font-medium" data-dropdown="currencyMobile">
+                            <div class="flex items-center gap-3"><i class="fas fa-coins text-gray-500"></i><span>Currency</span><span class="text-xs text-gray-400 ml-auto" id="selectedCurrencyLabel">Euro
+                                    (EUR)</span></div><i class="fas fa-chevron-down text-xs transition-transform duration-300" id="currencyMobile-icon"></i>
+                        </button>
+                        <div class="mobile-submenu ml-4" id="currencyMobile-menu"><a href="http://127.0.0.1:8000/register/guest#" data-currency="eur" data-currency-label="Euro (EUR)" class="flex items-center justify-between px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>💶
+                                    Euro (EUR)</span><span class="text-xs text-gray-400">€</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="gbp" data-currency-label="Pound (GBP)" class="flex items-center justify-between px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>💷
+                                    Pound (GBP)</span><span class="text-xs text-gray-400">£</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="usd" data-currency-label="Dollar (USD)" class="flex items-center justify-between px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>💵
+                                    Dollar (USD)</span><span class="text-xs text-gray-400">$</span></a><a href="http://127.0.0.1:8000/register/guest#" data-currency="inr" data-currency-label="Rupee (INR)" class="flex items-center justify-between px-3 py-2.5 text-sm text-gray-600 hover:text-brand hover:bg-brand/5 rounded-lg"><span>🇮🇳
+                                    Rupee (INR)</span><span class="text-xs text-gray-400">₹</span></a></div>
+                    </div>
+                    <div class="flex gap-3 pt-2 px-2">
+                        <a href="http://127.0.0.1:8000/login">
+                            <button class="flex-1 py-2.5 rounded-xl text-gray-700 font-semibold border border-gray-300 hover:border-brand">Log
+                            in</button>
+                        </a>
+                        <a href="http://127.0.0.1:8000/register">
+                            <button class="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-brand to-brand-dark text-white font-semibold shadow-md">Sign
+                            up</button>
+                        </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+                <section class="font-inter bg-gradient-to-br from-[#f0f7fc] to-[#e8f2f8] min-h-screen relative" bv="">
+
+
+
+        <!-- Background Circles -->
+        <div class="bg-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="relative z-10 py-12 px-4 sm:px-6 lg:px-8">
+           
+            <div class="max-w-5xl mx-auto">
+                                <div class="form-card bg-white/95 backdrop-blur-sm rounded-3xl shadow-xl border border-gray-100 overflow-hidden animate-fade-up" style="animation-delay: 0.1s;">
+
+                    <div class="bg-gradient-to-r from-brand to-brand-dark p-6 text-white">
+                        <div class="flex items-center gap-5 flex-wrap">
+                            <div class="w-14 h-14 bg-white/20 backdrop-blur rounded-xl flex items-center justify-center">
+                                <i class="fas fa-gem text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-bold text-xl">Sign Up as a Guest</h3>
+                                <p class="text-brand-light text-sm mt-1">Become a guest of our platform iBoatel and
+                                    access the largest database of boats for rent.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <form class="p-8 md:p-10" method="POST" id="guest_form" action="http://127.0.0.1:8000/register/guest" enctype="multipart/form-data">
+                      <input type="hidden" name="_token" value="Fz0QbyAGcgg8mUWzKV3MaXtjD4HndJuakt3LIVFH" autocomplete="off">                        <!-- Personal Information Section -->
+                        <div class="mb-8">
+                            <h3 class="section-header text-xl font-bold text-navy mb-5 pb-2 border-b-2 border-brand/15 flex items-center gap-3">
+                                <div class="w-9 h-9 bg-brand/10 rounded-xl flex items-center justify-center">
+                                    <i class="fas fa-user-circle text-brand text-base"></i>
+                                </div>
+                                Personal Information
+                            </h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <!-- First Name -->
+                                <div class="group">
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        First Name <span class="text-red-500">*</span>
+                                    </label>
+                                    <input type="text" name="first_name" value="" class="w-full px-4 py-3 rounded-xl bg-gray-50/50" placeholder="Enter your first name" required="">
+                                </div>
+
+                                <!-- Last Name -->
+                                <div class="group">
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Last Name 
+                                    </label>
+                                    <input type="text" name="last_name" value="" class="w-full px-4 py-3 rounded-xl bg-gray-50/50" placeholder="Enter your last name">
+                                </div>
+
+                                <!-- Username -->
+                                <div class="group">
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Username <span class="text-red-500">*</span>
+                                    </label>
+                                    <input type="text" name="username" value="" autocomplete="off" class="w-full px-4 py-3 rounded-xl bg-gray-50/50" placeholder="Choose a username" required="">
+                                </div>
+
+                                <!-- Date of Birth -->
+                                <div class="group">
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Date of Birth <span class="text-red-500">*</span>
+                                    </label>
+                                    <input type="text" name="dob" id="guest_dob" value="" class="w-full px-4 py-3 rounded-xl bg-gray-50/50 cursor-pointer flatpickr-input" placeholder="DD/MM/YYYY" required="" readonly="readonly">
+                                </div>
+                            </div>
+                   
+                            <!-- Address - Full Width Textarea -->
+                            <div class="group mt-5">
+                                <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                    Address <span class="text-red-500">*</span>
+                                </label>
+                                <textarea name="address" rows="3" class="w-full px-4 py-3 rounded-xl bg-gray-50/50 resize-none" placeholder="Full Address (Street, Apartment, City, ZIP Code)" required=""></textarea>
+                            </div>
+                            <div class="group mt-5">
+                                <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                    Profile image <span class="text-red-500">*</span>
+                                </label>
+                            <div class="mb-8">
+
+    <div class="grid grid-cols-1 gap-5">
+
+        <div class="file-upload">
+
+            <!-- Hidden File Input -->
+            <input type="file" name="profile_photo" id="guest_photo" accept="image/*" class="hidden" required="">
+
+            <!-- Upload Box -->
+            <label for="guest_photo" class="flex items-center justify-between gap-4 border border-dashed border-gray-300 rounded-2xl p-5 cursor-pointer hover:border-indigo-500 transition bg-gray-50">
+
+                <div class="flex items-center gap-4">
+
+                    <!-- Preview -->
+                    <div class="w-16 h-16 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+
+                        <img id="guest_preview" src="./Laravel_files/100x100" class="w-full h-full object-cover hidden">
+
+                        <i id="guest_icon" class="fas fa-camera text-gray-400 text-xl">
+                        </i>
+
+                    </div>
+
+                    <!-- Text -->
+                    <div>
+
+                        <p class="font-semibold text-sm text-gray-700">
+                            Profile Photo
+                        </p>
+
+                        <p class="text-xs text-gray-400">
+                            Upload image preview
+                        </p>
+
+                        <p id="guest_file_name" class="text-xs text-indigo-500 mt-1">
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Upload Icon -->
+                <i class="fas fa-upload text-gray-400 text-sm"></i>
+
+            </label>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    let fileInput =
+        document.getElementById('guest_photo');
+
+    let previewImage =
+        document.getElementById('guest_preview');
+
+    let fileName =
+        document.getElementById('guest_file_name');
+
+    let icon =
+        document.getElementById('guest_icon');
+
+    /**
+     * Image Preview
+     */
+    fileInput.addEventListener('change', function (e) {
+
+        let file = e.target.files[0];
+
+        if (!file) return;
+
+        fileName.innerHTML = file.name;
+
+        let reader = new FileReader();
+
+        reader.onload = function (event) {
+
+            previewImage.src = event.target.result;
+
+            previewImage.classList.remove('hidden');
+
+            icon.classList.add('hidden');
+        };
+
+        reader.readAsDataURL(file);
+
+    });
+
+});
+</script>                           </div>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="mb-8">
+                            <h3 class="section-header text-xl font-bold text-navy mb-5 pb-2 border-b-2 border-brand/15 flex items-center gap-3">
+                                <i class="fas fa-address-card text-brand text-base"></i>
+                                Contact Information
+                            </h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <!-- Email Address -->
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Email Address <span class="text-red-500">*</span>
+                                    </label>
+                                    <input type="email" name="email" value="" class="w-full px-4 py-3 rounded-xl bg-gray-50/50" placeholder="your@email.com" required="">
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Phone Number <span class="text-red-500">*</span>
+                                    </label>
+                                    <input type="tel" name="number" value="" class="w-full px-4 py-3 rounded-xl bg-gray-50/50" placeholder="Phone number" required="">
+                                </div>
+
+                                <!-- Gender - Pill Style Design -->
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+                                        Gender <span class="text-red-500">*</span>
+                                    </label>
+                                    <div class="flex gap-3">
+                                        <label class="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gray-50/80 border border-gray-200 rounded-xl cursor-pointer hover:bg-brand/10 hover:border-brand/30 transition-all has-[:checked]:bg-brand/10 has-[:checked]:border-brand/40 has-[:checked]:text-brand">
+                                            <input type="radio" name="gender" value="Male" class="w-4 h-4 accent-brand">
+                                            <span class="font-medium">Male</span>
+                                        </label>
+                                        <label class="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gray-50/80 border border-gray-200 rounded-xl cursor-pointer hover:bg-brand/10 hover:border-brand/30 transition-all has-[:checked]:bg-brand/10 has-[:checked]:border-brand/40 has-[:checked]:text-brand">
+                                            <input type="radio" name="gender" value="Female" class="w-4 h-4 accent-brand">
+                                            <span class="font-medium">Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Location -->
+                        <div class="mb-8">
+                            <h3 class="section-header text-xl font-bold text-navy mb-5 pb-2 border-b-2 border-brand/15 flex items-center gap-3">
+                                <i class="fas fa-location-dot text-brand text-base"></i>
+                                Your Location
+                            </h3>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+    <!-- Country -->
+    <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+            Country <span class="text-red-500">*</span>
+        </label>
+
+        <select name="country" id="guest_country" class="w-full px-4 py-3 rounded-xl bg-gray-50/50 border border-gray-200">
+
+            <option value="">Select Country</option>
+
+                        <option value="1">
+
+            Afghanistan
+        </option>
+                    <option value="2">
+
+            Åland Islands
+        </option>
+                    <option value="3">
+
+            Albania
+        </option>
+                    <option value="4">
+
+            Algeria
+        </option>
+                    <option value="5">
+
+            American Samoa
+        </option>
+                    <option value="6">
+
+            Andorra
+        </option>
+                    <option value="7">
+
+            Angola
+        </option>
+                    <option value="8">
+
+            Anguilla
+        </option>
+                    <option value="9">
+
+            Antarctica
+        </option>
+                    <option value="10">
+
+            Antigua &amp; Barbuda
+        </option>
+                    <option value="11">
+
+            Argentina
+        </option>
+                    <option value="12">
+
+            Armenia
+        </option>
+                    <option value="13">
+
+            Aruba
+        </option>
+                    <option value="14">
+
+            Australia
+        </option>
+                    <option value="15">
+
+            Austria
+        </option>
+                    <option value="16">
+
+            Azerbaijan
+        </option>
+                    <option value="17">
+
+            Bahrain
+        </option>
+                    <option value="18">
+
+            Bangladesh
+        </option>
+                    <option value="19">
+
+            Barbados
+        </option>
+                    <option value="20">
+
+            Belarus
+        </option>
+                    <option value="21">
+
+            Belgium
+        </option>
+                    <option value="22">
+
+            Belize
+        </option>
+                    <option value="23">
+
+            Benin
+        </option>
+                    <option value="24">
+
+            Bermuda
+        </option>
+                    <option value="25">
+
+            Bhutan
+        </option>
+                    <option value="26">
+
+            Bolivia
+        </option>
+                    <option value="27">
+
+            Caribbean Netherlands
+        </option>
+                    <option value="28">
+
+            Bosnia &amp; Herzegovina
+        </option>
+                    <option value="29">
+
+            Botswana
+        </option>
+                    <option value="30">
+
+            Bouvet Island
+        </option>
+                    <option value="31">
+
+            Brazil
+        </option>
+                    <option value="32">
+
+            British Indian Ocean Territory
+        </option>
+                    <option value="33">
+
+            Brunei
+        </option>
+                    <option value="34">
+
+            Bulgaria
+        </option>
+                    <option value="35">
+
+            Burkina Faso
+        </option>
+                    <option value="36">
+
+            Burundi
+        </option>
+                    <option value="37">
+
+            Cambodia
+        </option>
+                    <option value="38">
+
+            Cameroon
+        </option>
+                    <option value="39">
+
+            Canada
+        </option>
+                    <option value="40">
+
+            Cape Verde
+        </option>
+                    <option value="41">
+
+            Cayman Islands
+        </option>
+                    <option value="42">
+
+            Central African Republic
+        </option>
+                    <option value="43">
+
+            Chad
+        </option>
+                    <option value="44">
+
+            Chile
+        </option>
+                    <option value="45">
+
+            China
+        </option>
+                    <option value="46">
+
+            Christmas Island
+        </option>
+                    <option value="47">
+
+            Cocos (Keeling) Islands
+        </option>
+                    <option value="48">
+
+            Colombia
+        </option>
+                    <option value="49">
+
+            Comoros
+        </option>
+                    <option value="50">
+
+            Congo - Brazzaville
+        </option>
+                    <option value="51">
+
+            Cook Islands
+        </option>
+                    <option value="52">
+
+            Costa Rica
+        </option>
+                    <option value="53">
+
+            Côte d’Ivoire
+        </option>
+                    <option value="54">
+
+            Croatia
+        </option>
+                    <option value="55">
+
+            Cuba
+        </option>
+                    <option value="56">
+
+            Curaçao
+        </option>
+                    <option value="57">
+
+            Cyprus
+        </option>
+                    <option value="58">
+
+            Czechia
+        </option>
+                    <option value="59">
+
+            Congo - Kinshasa
+        </option>
+                    <option value="60">
+
+            Denmark
+        </option>
+                    <option value="61">
+
+            Djibouti
+        </option>
+                    <option value="62">
+
+            Dominica
+        </option>
+                    <option value="63">
+
+            Dominican Republic
+        </option>
+                    <option value="64">
+
+            Timor-Leste
+        </option>
+                    <option value="65">
+
+            Ecuador
+        </option>
+                    <option value="66">
+
+            Egypt
+        </option>
+                    <option value="67">
+
+            El Salvador
+        </option>
+                    <option value="68">
+
+            Equatorial Guinea
+        </option>
+                    <option value="69">
+
+            Eritrea
+        </option>
+                    <option value="70">
+
+            Estonia
+        </option>
+                    <option value="71">
+
+            Ethiopia
+        </option>
+                    <option value="72">
+
+            Falkland Islands
+        </option>
+                    <option value="73">
+
+            Faroe Islands
+        </option>
+                    <option value="74">
+
+            Fiji
+        </option>
+                    <option value="75">
+
+            Finland
+        </option>
+                    <option value="76">
+
+            France
+        </option>
+                    <option value="77">
+
+            French Guiana
+        </option>
+                    <option value="78">
+
+            French Polynesia
+        </option>
+                    <option value="79">
+
+            French Southern Territories
+        </option>
+                    <option value="80">
+
+            Gabon
+        </option>
+                    <option value="81">
+
+            Gambia
+        </option>
+                    <option value="82">
+
+            Georgia
+        </option>
+                    <option value="83">
+
+            Germany
+        </option>
+                    <option value="84">
+
+            Ghana
+        </option>
+                    <option value="85">
+
+            Gibraltar
+        </option>
+                    <option value="86">
+
+            Greece
+        </option>
+                    <option value="87">
+
+            Greenland
+        </option>
+                    <option value="88">
+
+            Grenada
+        </option>
+                    <option value="89">
+
+            Guadeloupe
+        </option>
+                    <option value="90">
+
+            Guam
+        </option>
+                    <option value="91">
+
+            Guatemala
+        </option>
+                    <option value="92">
+
+            Guernsey
+        </option>
+                    <option value="93">
+
+            Guinea
+        </option>
+                    <option value="94">
+
+            Guinea-Bissau
+        </option>
+                    <option value="95">
+
+            Guyana
+        </option>
+                    <option value="96">
+
+            Haiti
+        </option>
+                    <option value="97">
+
+            Heard &amp; McDonald Islands
+        </option>
+                    <option value="98">
+
+            Honduras
+        </option>
+                    <option value="99">
+
+            Hong Kong SAR China
+        </option>
+                    <option value="100">
+
+            Hungary
+        </option>
+                    <option value="101">
+
+            Iceland
+        </option>
+                    <option value="102" selected="">
+
+            India
+        </option>
+                    <option value="103">
+
+            Indonesia
+        </option>
+                    <option value="104">
+
+            Iran
+        </option>
+                    <option value="105">
+
+            Iraq
+        </option>
+                    <option value="106">
+
+            Ireland
+        </option>
+                    <option value="107">
+
+            Israel
+        </option>
+                    <option value="108">
+
+            Italy
+        </option>
+                    <option value="109">
+
+            Jamaica
+        </option>
+                    <option value="110">
+
+            Japan
+        </option>
+                    <option value="111">
+
+            Jersey
+        </option>
+                    <option value="112">
+
+            Jordan
+        </option>
+                    <option value="113">
+
+            Kazakhstan
+        </option>
+                    <option value="114">
+
+            Kenya
+        </option>
+                    <option value="115">
+
+            Kiribati
+        </option>
+                    <option value="116">
+
+            Kosovo
+        </option>
+                    <option value="117">
+
+            Kuwait
+        </option>
+                    <option value="118">
+
+            Kyrgyzstan
+        </option>
+                    <option value="119">
+
+            Laos
+        </option>
+                    <option value="120">
+
+            Latvia
+        </option>
+                    <option value="121">
+
+            Lebanon
+        </option>
+                    <option value="122">
+
+            Lesotho
+        </option>
+                    <option value="123">
+
+            Liberia
+        </option>
+                    <option value="124">
+
+            Libya
+        </option>
+                    <option value="125">
+
+            Liechtenstein
+        </option>
+                    <option value="126">
+
+            Lithuania
+        </option>
+                    <option value="127">
+
+            Luxembourg
+        </option>
+                    <option value="128">
+
+            Macao SAR China
+        </option>
+                    <option value="129">
+
+            North Macedonia
+        </option>
+                    <option value="130">
+
+            Madagascar
+        </option>
+                    <option value="131">
+
+            Malawi
+        </option>
+                    <option value="132">
+
+            Malaysia
+        </option>
+                    <option value="133">
+
+            Maldives
+        </option>
+                    <option value="134">
+
+            Mali
+        </option>
+                    <option value="135">
+
+            Malta
+        </option>
+                    <option value="136">
+
+            Isle of Man
+        </option>
+                    <option value="137">
+
+            Marshall Islands
+        </option>
+                    <option value="138">
+
+            Martinique
+        </option>
+                    <option value="139">
+
+            Mauritania
+        </option>
+                    <option value="140">
+
+            Mauritius
+        </option>
+                    <option value="141">
+
+            Mayotte
+        </option>
+                    <option value="142">
+
+            Mexico
+        </option>
+                    <option value="143">
+
+            Micronesia
+        </option>
+                    <option value="144">
+
+            Moldova
+        </option>
+                    <option value="145">
+
+            Monaco
+        </option>
+                    <option value="146">
+
+            Mongolia
+        </option>
+                    <option value="147">
+
+            Montenegro
+        </option>
+                    <option value="148">
+
+            Montserrat
+        </option>
+                    <option value="149">
+
+            Morocco
+        </option>
+                    <option value="150">
+
+            Mozambique
+        </option>
+                    <option value="151">
+
+            Myanmar (Burma)
+        </option>
+                    <option value="152">
+
+            Namibia
+        </option>
+                    <option value="153">
+
+            Nauru
+        </option>
+                    <option value="154">
+
+            Nepal
+        </option>
+                    <option value="155">
+
+            Netherlands
+        </option>
+                    <option value="156">
+
+            New Caledonia
+        </option>
+                    <option value="157">
+
+            New Zealand
+        </option>
+                    <option value="158">
+
+            Nicaragua
+        </option>
+                    <option value="159">
+
+            Niger
+        </option>
+                    <option value="160">
+
+            Nigeria
+        </option>
+                    <option value="161">
+
+            Niue
+        </option>
+                    <option value="162">
+
+            Norfolk Island
+        </option>
+                    <option value="163">
+
+            North Korea
+        </option>
+                    <option value="164">
+
+            Northern Mariana Islands
+        </option>
+                    <option value="165">
+
+            Norway
+        </option>
+                    <option value="166">
+
+            Oman
+        </option>
+                    <option value="167">
+
+            Pakistan
+        </option>
+                    <option value="168">
+
+            Palau
+        </option>
+                    <option value="169">
+
+            Palestinian Territories
+        </option>
+                    <option value="170">
+
+            Panama
+        </option>
+                    <option value="171">
+
+            Papua New Guinea
+        </option>
+                    <option value="172">
+
+            Paraguay
+        </option>
+                    <option value="173">
+
+            Peru
+        </option>
+                    <option value="174">
+
+            Philippines
+        </option>
+                    <option value="175">
+
+            Pitcairn Islands
+        </option>
+                    <option value="176">
+
+            Poland
+        </option>
+                    <option value="177">
+
+            Portugal
+        </option>
+                    <option value="178">
+
+            Puerto Rico
+        </option>
+                    <option value="179">
+
+            Qatar
+        </option>
+                    <option value="180">
+
+            Réunion
+        </option>
+                    <option value="181">
+
+            Romania
+        </option>
+                    <option value="182">
+
+            Russia
+        </option>
+                    <option value="183">
+
+            Rwanda
+        </option>
+                    <option value="184">
+
+            St. Helena
+        </option>
+                    <option value="185">
+
+            St. Kitts &amp; Nevis
+        </option>
+                    <option value="186">
+
+            St. Lucia
+        </option>
+                    <option value="187">
+
+            St. Pierre &amp; Miquelon
+        </option>
+                    <option value="188">
+
+            St. Vincent &amp; Grenadines
+        </option>
+                    <option value="189">
+
+            St. Barthélemy
+        </option>
+                    <option value="190">
+
+            St. Martin
+        </option>
+                    <option value="191">
+
+            Samoa
+        </option>
+                    <option value="192">
+
+            San Marino
+        </option>
+                    <option value="193">
+
+            São Tomé &amp; Príncipe
+        </option>
+                    <option value="194">
+
+            Saudi Arabia
+        </option>
+                    <option value="195">
+
+            Senegal
+        </option>
+                    <option value="196">
+
+            Serbia
+        </option>
+                    <option value="197">
+
+            Seychelles
+        </option>
+                    <option value="198">
+
+            Sierra Leone
+        </option>
+                    <option value="199">
+
+            Singapore
+        </option>
+                    <option value="200">
+
+            Sint Maarten
+        </option>
+                    <option value="201">
+
+            Slovakia
+        </option>
+                    <option value="202">
+
+            Slovenia
+        </option>
+                    <option value="203">
+
+            Solomon Islands
+        </option>
+                    <option value="204">
+
+            Somalia
+        </option>
+                    <option value="205">
+
+            South Africa
+        </option>
+                    <option value="206">
+
+            South Georgia &amp; South Sandwich Islands
+        </option>
+                    <option value="207">
+
+            South Korea
+        </option>
+                    <option value="208">
+
+            South Sudan
+        </option>
+                    <option value="209">
+
+            Spain
+        </option>
+                    <option value="210">
+
+            Sri Lanka
+        </option>
+                    <option value="211">
+
+            Sudan
+        </option>
+                    <option value="212">
+
+            Suriname
+        </option>
+                    <option value="213">
+
+            Svalbard &amp; Jan Mayen
+        </option>
+                    <option value="214">
+
+            Eswatini
+        </option>
+                    <option value="215">
+
+            Sweden
+        </option>
+                    <option value="216">
+
+            Switzerland
+        </option>
+                    <option value="217">
+
+            Syria
+        </option>
+                    <option value="218">
+
+            Taiwan
+        </option>
+                    <option value="219">
+
+            Tajikistan
+        </option>
+                    <option value="220">
+
+            Tanzania
+        </option>
+                    <option value="221">
+
+            Thailand
+        </option>
+                    <option value="222">
+
+            Bahamas
+        </option>
+                    <option value="223">
+
+            Togo
+        </option>
+                    <option value="224">
+
+            Tokelau
+        </option>
+                    <option value="225">
+
+            Tonga
+        </option>
+                    <option value="226">
+
+            Trinidad &amp; Tobago
+        </option>
+                    <option value="227">
+
+            Tunisia
+        </option>
+                    <option value="228">
+
+            Turkey
+        </option>
+                    <option value="229">
+
+            Turkmenistan
+        </option>
+                    <option value="230">
+
+            Turks &amp; Caicos Islands
+        </option>
+                    <option value="231">
+
+            Tuvalu
+        </option>
+                    <option value="232">
+
+            Uganda
+        </option>
+                    <option value="233">
+
+            Ukraine
+        </option>
+                    <option value="234">
+
+            United Arab Emirates
+        </option>
+                    <option value="235">
+
+            United Kingdom
+        </option>
+                    <option value="236">
+
+            United States
+        </option>
+                    <option value="237">
+
+            U.S. Outlying Islands
+        </option>
+                    <option value="238">
+
+            Uruguay
+        </option>
+                    <option value="239">
+
+            Uzbekistan
+        </option>
+                    <option value="240">
+
+            Vanuatu
+        </option>
+                    <option value="241">
+
+            Vatican City
+        </option>
+                    <option value="242">
+
+            Venezuela
+        </option>
+                    <option value="243">
+
+            Vietnam
+        </option>
+                    <option value="244">
+
+            British Virgin Islands
+        </option>
+                    <option value="245">
+
+            U.S. Virgin Islands
+        </option>
+                    <option value="246">
+
+            Wallis &amp; Futuna
+        </option>
+                    <option value="247">
+
+            Western Sahara
+        </option>
+                    <option value="248">
+
+            Yemen
+        </option>
+                    <option value="249">
+
+            Zambia
+        </option>
+                    <option value="250">
+
+            Zimbabwe
+        </option>
+        
+        </select>
+    </div>
+
+    <!-- State -->
+    <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+            State <span class="text-red-500">*</span>
+        </label>
+
+        <select name="state" id="guest_state" class="w-full px-4 py-3 rounded-xl bg-gray-50/50 border border-gray-200"><option value="">Select State</option>
+                            <option value="1640">
+                                Andaman and Nicobar Islands
+                            </option>
+                        
+                            <option value="1641">
+                                Andhra Pradesh
+                            </option>
+                        
+                            <option value="1642">
+                                Arunachal Pradesh
+                            </option>
+                        
+                            <option value="1643">
+                                Assam
+                            </option>
+                        
+                            <option value="1644">
+                                Bihar
+                            </option>
+                        
+                            <option value="1645">
+                                Chandigarh
+                            </option>
+                        
+                            <option value="1646">
+                                Chhattisgarh
+                            </option>
+                        
+                            <option value="1647">
+                                Dadra and Nagar Haveli and Daman and Diu
+                            </option>
+                        
+                            <option value="1648">
+                                Delhi
+                            </option>
+                        
+                            <option value="1649">
+                                Goa
+                            </option>
+                        
+                            <option value="1650">
+                                Gujarat
+                            </option>
+                        
+                            <option value="1651">
+                                Haryana
+                            </option>
+                        
+                            <option value="1652">
+                                Himachal Pradesh
+                            </option>
+                        
+                            <option value="1653">
+                                Jammu and Kashmir
+                            </option>
+                        
+                            <option value="1654">
+                                Jharkhand
+                            </option>
+                        
+                            <option value="1655">
+                                Karnataka
+                            </option>
+                        
+                            <option value="1656">
+                                Kerala
+                            </option>
+                        
+                            <option value="1657">
+                                Ladakh
+                            </option>
+                        
+                            <option value="1658">
+                                Lakshadweep
+                            </option>
+                        
+                            <option value="1659">
+                                Madhya Pradesh
+                            </option>
+                        
+                            <option value="1660">
+                                Maharashtra
+                            </option>
+                        
+                            <option value="1661">
+                                Manipur
+                            </option>
+                        
+                            <option value="1662">
+                                Meghalaya
+                            </option>
+                        
+                            <option value="1663">
+                                Mizoram
+                            </option>
+                        
+                            <option value="1664">
+                                Nagaland
+                            </option>
+                        
+                            <option value="1665">
+                                Odisha
+                            </option>
+                        
+                            <option value="1666">
+                                Puducherry
+                            </option>
+                        
+                            <option value="1667">
+                                Punjab
+                            </option>
+                        
+                            <option value="1668">
+                                Rajasthan
+                            </option>
+                        
+                            <option value="1669">
+                                Sikkim
+                            </option>
+                        
+                            <option value="1670">
+                                Tamil Nadu
+                            </option>
+                        
+                            <option value="1671">
+                                Telangana
+                            </option>
+                        
+                            <option value="1672">
+                                Tripura
+                            </option>
+                        
+                            <option value="1673">
+                                Uttar Pradesh
+                            </option>
+                        
+                            <option value="1674">
+                                Uttarakhand
+                            </option>
+                        
+                            <option value="1675">
+                                West Bengal
+                            </option>
+                        </select>
+    </div>
+
+    <!-- City -->
+    <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+            City <span class="text-red-500">*</span>
+        </label>
+
+        <input type="text" name="city" class="w-full px-4 py-3 rounded-xl bg-gray-50/50 border border-gray-200" placeholder="City">
+    </div>
+</div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+    
+        let countryDropdown =
+            document.getElementById('guest_country');
+    
+        let stateDropdown =
+            document.getElementById('guest_state');
+    
+        let stateRoute =
+            "http://127.0.0.1:8000/get-states/:countryId";
+    
+        /**
+         * Load States
+         */
+        function loadStates(countryId)
+        {
+            if (!countryId) {
+    
+                stateDropdown.innerHTML =
+                    '<option value="">Select State</option>';
+    
+                return;
+            }
+    
+            stateDropdown.innerHTML =
+                '<option value="">Loading...</option>';
+    
+            let url =
+                stateRoute.replace(':countryId', countryId);
+    
+            fetch(url)
+    
+                .then(response => response.json())
+    
+                .then(states => {
+    
+                    let options =
+                        '<option value="">Select State</option>';
+    
+                    states.forEach(function(state) {
+    
+                        options += `
+                            <option value="${state.id}">
+                                ${state.name}
+                            </option>
+                        `;
+                    });
+    
+                    stateDropdown.innerHTML = options;
+                });
+        }
+    
+        /**
+         * On Country Change
+         */
+        countryDropdown.addEventListener('change', function () {
+    
+            loadStates(this.value);
+    
+        });
+    
+        /**
+         * Default Load on Page Open
+         */
+        loadStates(countryDropdown.value);
+    
+    });
+    </script>                            
+                        </div>
+
+                        
+
+                        <!-- Password Section -->
+                        <div class="mb-8">
+                            <h3 class="section-header text-xl font-bold text-navy mb-5 pb-2 border-b-2 border-brand/15 flex items-center gap-3">
+                                <i class="fas fa-lock text-brand text-base"></i>
+                                Security
+                            </h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+    <!-- Password -->
+    <div>
+
+        <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+            Password <span class="text-red-500">*</span>
+        </label>
+
+        <div class="relative">
+
+            <!-- Left Icon -->
+            <i class="fas fa-key absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+
+            <!-- Password Input -->
+            <input type="password" name="password" autocomplete="off" id="guest_password" class="w-full pl-11 pr-12 py-3 rounded-xl bg-gray-50/50 border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition" placeholder="Create a strong password" required="">
+
+            <!-- Toggle Password -->
+            <button type="button" id="guest_toggle_password" class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
+
+                <i class="fas fa-eye"></i>
+
+            </button>
+
+        </div>
+        <div id="guest_password_error" class="mt-2 text-sm text-red-500 hidden">
+</div>
+        <!-- Password Rules -->
+        <div id="guest_strength" class="mt-3 space-y-2 text-sm">
+
+            <div id="guest_rule_length" class="flex items-center gap-2 text-green-600">
+
+                <span class="icon text-xs">✓</span>
+
+                Minimum 8 characters
+
+            </div>
+
+            <div id="guest_rule_uppercase" class="flex items-center gap-2 text-gray-400">
+
+                <span class="icon text-xs">•</span>
+
+                One uppercase letter
+
+            </div>
+
+            <div id="guest_rule_lowercase" class="flex items-center gap-2 text-gray-400">
+
+                <span class="icon text-xs">•</span>
+
+                One lowercase letter
+
+            </div>
+
+            <div id="guest_rule_number" class="flex items-center gap-2 text-green-600">
+
+                <span class="icon text-xs">✓</span>
+
+                One numeric value
+
+            </div>
+
+            <div id="guest_rule_special" class="flex items-center gap-2 text-gray-400">
+
+                <span class="icon text-xs">•</span>
+
+                One special character
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Confirm Password -->
+    <div>
+
+        <label class="block text-sm font-semibold text-gray-700 mb-1.5">
+            Confirm Password <span class="text-red-500">*</span>
+        </label>
+
+        <div class="relative">
+
+            <!-- Left Icon -->
+            <i class="fas fa-check-circle absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+
+            <!-- Confirm Password Input -->
+            <input type="password" name="password_confirmation" autocomplete="off" id="guest_confirm_password" class="w-full pl-11 pr-12 py-3 rounded-xl bg-gray-50/50 border border-gray-200 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition" placeholder="Confirm your password" required="">
+
+            <!-- Toggle Confirm Password -->
+            <button type="button" id="guest_toggle_confirm_password" class="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600">
+
+                <i class="fas fa-eye"></i>
+
+            </button>
+
+        </div>
+        <div id="guest_confirm_password_error" class="mt-2 text-sm text-red-500 hidden">
+    </div>
+        <!-- Password Match Message -->
+        <div id="guest_match" class="mt-3 text-sm font-medium">
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+    
+        let form =
+            document.getElementById('guest_form');
+    
+        let password =
+            document.getElementById('guest_password');
+    
+        let confirmPassword =
+            document.getElementById('guest_confirm_password');
+    
+        let matchText =
+            document.getElementById('guest_match');
+    
+        /**
+         * Update Rule UI
+         */
+        function updateRule(elementId, condition)
+        {
+            let element =
+                document.getElementById(elementId);
+    
+            let icon =
+                element.querySelector('.icon');
+    
+            if (condition) {
+    
+                element.classList.remove('text-gray-400');
+                element.classList.add('text-green-600');
+    
+                icon.innerHTML = '✓';
+    
+            } else {
+    
+                element.classList.remove('text-green-600');
+                element.classList.add('text-gray-400');
+    
+                icon.innerHTML = '•';
+            }
+        }
+    
+        /**
+         * Validate Password
+         */
+        function isPasswordStrong(value)
+        {
+            let hasUppercase =
+                /[A-Z]/.test(value);
+    
+            let hasLowercase =
+                /[a-z]/.test(value);
+    
+            let hasNumber =
+                /[0-9]/.test(value);
+    
+            let hasSpecial =
+                /[^A-Za-z0-9]/.test(value);
+    
+            let hasLength =
+                value.length >= 8;
+    
+            return (
+                hasUppercase &&
+                hasLowercase &&
+                hasNumber &&
+                hasSpecial &&
+                hasLength
+            );
+        }
+    
+        /**
+         * Password Validation UI
+         */
+        password.addEventListener('input', function () {
+    
+            let value = this.value;
+    
+            updateRule(
+                'guest_rule_length',
+                value.length >= 8
+            );
+    
+            updateRule(
+                'guest_rule_uppercase',
+                /[A-Z]/.test(value)
+            );
+    
+            updateRule(
+                'guest_rule_lowercase',
+                /[a-z]/.test(value)
+            );
+    
+            updateRule(
+                'guest_rule_number',
+                /[0-9]/.test(value)
+            );
+    
+            updateRule(
+                'guest_rule_special',
+                /[^A-Za-z0-9]/.test(value)
+            );
+        });
+    
+        /**
+         * Confirm Password Match
+         */
+        confirmPassword.addEventListener('input', function () {
+    
+            if (
+                password.value !== '' &&
+                password.value === confirmPassword.value
+            ) {
+    
+                matchText.innerHTML = `
+                    <div class="flex items-center gap-2 text-green-600">
+                        <span>✓</span>
+                        Passwords matched
+                    </div>
+                `;
+    
+            } else {
+    
+                matchText.innerHTML = `
+                    <div class="flex items-center gap-2 text-red-500">
+                        <span>•</span>
+                        Passwords do not match
+                    </div>
+                `;
+            }
+        });
+    
+        /**
+         * Form Submit Validation
+         */
+        form.addEventListener('submit', function (event) {
+    
+            let passwordError =
+    document.getElementById('guest_password_error');
+
+let confirmPasswordError =
+    document.getElementById('guest_confirm_password_error');
+
+            let passwordValue =
+                password.value;
+    
+            let confirmPasswordValue =
+                confirmPassword.value;
+    
+            // Strong Password Check
+                if (!isPasswordStrong(passwordValue)) {
+
+        event.preventDefault();
+
+        passwordError.innerHTML =
+            'Password must contain uppercase, lowercase, number, special character and minimum 8 characters.';
+
+        passwordError.classList.remove('hidden');
+
+        return;
+    }
+
+    
+            // Password Match Check
+            if (passwordValue !== confirmPasswordValue) {
+
+event.preventDefault();
+
+confirmPasswordError.innerHTML =
+    'Passwords do not match.';
+
+confirmPasswordError.classList.remove('hidden');
+
+return;
+}
+        });
+    
+    });
+    </script>                        </div>
+
+                        <!-- Terms and Submit -->
+                        <div class="pt-5 border-t-2 border-gray-100">
+                            <div class="flex items-start gap-3 mb-6">
+                                <input type="checkbox" id="terms" class="mt-0.5 w-4 h-4 rounded accent-brand" required="">
+                                <label for="terms" class="text-sm text-gray-600">
+                                    I agree to the <a href="http://127.0.0.1:8000/register/guest#" class="text-brand hover:underline font-medium">Terms of Service</a>
+                                    and <a href="http://127.0.0.1:8000/register/guest#" class="text-brand hover:underline font-medium">Privacy Policy</a>.
+                                </label>
+                            </div>
+                            <div class="flex justify-end">
+                                <button type="submit" class="submit-btn px-10 py-3.5 rounded-full text-white font-bold shadow-md transition-all flex items-center gap-2 text-sm">
+                                    <i class="fas fa-paper-plane"></i> Create Account
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                   
+                </div>
+
+                <!-- Login Link -->
+                <div class="text-center mt-8 animate-fade-up" style="animation-delay: 0.2s;">
+                    <p class="text-gray-500">Already have an account?
+                        <a href="http://127.0.0.1:8000/login" class="text-brand font-semibold hover:text-brand-dark transition-colors ml-1 hover:underline">Sign
+                            in <i class="fas fa-arrow-right text-xs ml-1"></i></a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+          <footer class="bg-white border-t border-gray-100 section-spacing">
+    <div class="max-w-[1400px] mx-auto px-6 py-12 md:px-8 lg:px-10 pb-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-9 h-9 bg-gradient-to-br from-brand to-brand-dark rounded-xl flex items-center justify-center shadow-md">
+                        <span class="text-white text-lg">⚓</span>
+                    </div><span class="text-xl font-extrabold bg-gradient-to-r from-[#1a2a4f] to-brand bg-clip-text text-transparent">iBoatel</span>
+                </div>
+                <p class="text-gray-500 text-sm">Europe's leading platform for yacht and boat charters. Connect with
+                    trusted boat owners worldwide.</p>
+                <div class="flex gap-2 pt-2"><a href="http://127.0.0.1:8000/register/guest#" class="social-icon w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-brand hover:bg-brand hover:text-white"><i class="fab fa-facebook-f text-xs"></i></a><a href="http://127.0.0.1:8000/register/guest#" class="social-icon w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-brand hover:bg-brand hover:text-white"><i class="fab fa-instagram text-xs"></i></a></div>
+            </div>
+            <div class="space-y-3">
+                <h4 class="footer-col-title text-xs font-bold text-[#1a2a4f] uppercase tracking-wider pb-2">COMPANY
+                </h4>
+                <div class="space-y-2"><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">What We Do</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">About Us</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Contact Us</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Careers</a></div>
+            </div>
+            <div class="space-y-3">
+                <h4 class="footer-col-title text-xs font-bold text-[#1a2a4f] uppercase tracking-wider pb-2">LEGAL
+                </h4>
+                <div class="space-y-2"><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Terms &amp;
+                        Conditions</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Privacy
+                        Policy</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Cookie Settings</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">FAQs</a></div>
+            </div>
+            <div class="space-y-3">
+                <h4 class="footer-col-title text-xs font-bold text-[#1a2a4f] uppercase tracking-wider pb-2">SERVICES
+                </h4>
+                <div class="space-y-2"><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Yacht
+                        Charter</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Boatel (Sleep on
+                        Boat)</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">List Your Boat</a><a href="http://127.0.0.1:8000/register/guest#" class="footer-link text-gray-500 text-sm block">Become a Partner</a></div>
+            </div>
+            <div class="space-y-3">
+                <h4 class="footer-col-title text-xs font-bold text-[#1a2a4f] uppercase tracking-wider pb-2">CUSTOMER
+                    CARE</h4>
+                <div class="space-y-2">
+                    <p class="flex items-center gap-2 text-gray-500 text-sm"><i class="fas fa-phone-alt text-brand w-4"></i> +44 20 3868 3064</p>
+                    <p class="flex items-center gap-2 text-gray-500 text-sm"><i class="far fa-envelope text-brand w-4"></i> support@iboatel.com</p>
+                    <p class="flex items-center gap-2 text-gray-500 text-sm"><i class="far fa-clock text-brand w-4"></i> Mon-Fri 9AM-7PM</p>
+                </div>
+                <div class="pt-2">
+                    <h4 class="text-xs font-bold text-brand uppercase tracking-wider mb-2">DOWNLOAD APP</h4>
+                    <div class="flex flex-wrap gap-2"><span class="app-btn flex items-center gap-1.5 bg-[#1a2a4f] text-white px-3 py-1.5 rounded-lg text-xs font-semibold cursor-pointer hover:bg-brand"><i class="fab fa-apple text-sm"></i> App Store</span><span class="app-btn flex items-center gap-1.5 bg-[#1a2a4f] text-white px-3 py-1.5 rounded-lg text-xs font-semibold cursor-pointer hover:bg-brand"><i class="fab fa-google-play text-sm"></i> Google Play</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100 flex flex-wrap justify-between items-center gap-4">
+            <div class="payment-icons flex items-center gap-4 flex-wrap"><span class="text-xs text-gray-400 font-medium">SECURE PAYMENTS</span><i class="fab fa-cc-visa text-gray-400 text-xl hover:text-brand"></i><i class="fab fa-cc-mastercard text-gray-400 text-xl hover:text-brand"></i><i class="fab fa-cc-amex text-gray-400 text-xl hover:text-brand"></i><i class="fab fa-cc-paypal text-gray-400 text-xl hover:text-brand"></i></div>
+            <div class="text-xs text-gray-400">🔒 100% Secure Bookings</div>
+        </div>
+        <div class="mt-6 pt-5 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-3">
+            <p class="text-gray-400 text-xs">© 2026 iBoatel — All rights reserved.</p>
+            <div class="flex flex-wrap justify-center gap-4"><a href="http://127.0.0.1:8000/register/guest#" class="text-gray-400 text-xs hover:text-brand">Privacy policy</a><a href="http://127.0.0.1:8000/register/guest#" class="text-gray-400 text-xs hover:text-brand">Terms of use</a><a href="http://127.0.0.1:8000/register/guest#" class="text-gray-400 text-xs hover:text-brand">Cookie settings</a><a href="http://127.0.0.1:8000/register/guest#" class="text-gray-400 text-xs hover:text-brand">Sitemap</a></div>
+        </div>
+    </div>
+</footer>      
+            
+                
+            
+                <!-- Scripts -->
+                 <script src="./Laravel_files/flatpickr"></script>
+                <script src="./Laravel_files/fr.js"></script>
+                <script src="./Laravel_files/jquery-3.6.0.min.js"></script>
+                 <script src="./Laravel_files/select2.min.js"></script>
+            
+                <script src="./Laravel_files/home.js"></script>
+                <script src="./Laravel_files/login.js"></script>
+                <script src="./Laravel_files/signup.js"></script><div class="flatpickr-calendar animate" tabindex="-1"><div class="flatpickr-months"><span class="flatpickr-prev-month"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17"><g></g><path d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z"></path></svg></span><div class="flatpickr-month"><div class="flatpickr-current-month"><select class="flatpickr-monthDropdown-months" aria-label="Month" tabindex="-1"><option class="flatpickr-monthDropdown-month" value="0" tabindex="-1">January</option><option class="flatpickr-monthDropdown-month" value="1" tabindex="-1">February</option><option class="flatpickr-monthDropdown-month" value="2" tabindex="-1">March</option><option class="flatpickr-monthDropdown-month" value="3" tabindex="-1">April</option><option class="flatpickr-monthDropdown-month" value="4" tabindex="-1">May</option></select><div class="numInputWrapper"><input class="numInput cur-year" type="number" tabindex="-1" aria-label="Year" max="2026"><span class="arrowUp"></span><span class="arrowDown"></span></div></div></div><span class="flatpickr-next-month flatpickr-disabled"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17"><g></g><path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z"></path></svg></span></div><div class="flatpickr-innerContainer"><div class="flatpickr-rContainer"><div class="flatpickr-weekdays"><div class="flatpickr-weekdaycontainer">
+      <span class="flatpickr-weekday">
+        Sun</span><span class="flatpickr-weekday">Mon</span><span class="flatpickr-weekday">Tue</span><span class="flatpickr-weekday">Wed</span><span class="flatpickr-weekday">Thu</span><span class="flatpickr-weekday">Fri</span><span class="flatpickr-weekday">Sat
+      </span>
+      </div></div><div class="flatpickr-days" tabindex="-1"><div class="dayContainer"><span class="flatpickr-day prevMonthDay" aria-label="April 26, 2026" tabindex="-1">26</span><span class="flatpickr-day prevMonthDay" aria-label="April 27, 2026" tabindex="-1">27</span><span class="flatpickr-day prevMonthDay" aria-label="April 28, 2026" tabindex="-1">28</span><span class="flatpickr-day prevMonthDay" aria-label="April 29, 2026" tabindex="-1">29</span><span class="flatpickr-day prevMonthDay" aria-label="April 30, 2026" tabindex="-1">30</span><span class="flatpickr-day" aria-label="May 1, 2026" tabindex="-1">1</span><span class="flatpickr-day" aria-label="May 2, 2026" tabindex="-1">2</span><span class="flatpickr-day" aria-label="May 3, 2026" tabindex="-1">3</span><span class="flatpickr-day" aria-label="May 4, 2026" tabindex="-1">4</span><span class="flatpickr-day" aria-label="May 5, 2026" tabindex="-1">5</span><span class="flatpickr-day" aria-label="May 6, 2026" tabindex="-1">6</span><span class="flatpickr-day" aria-label="May 7, 2026" tabindex="-1">7</span><span class="flatpickr-day" aria-label="May 8, 2026" tabindex="-1">8</span><span class="flatpickr-day" aria-label="May 9, 2026" tabindex="-1">9</span><span class="flatpickr-day" aria-label="May 10, 2026" tabindex="-1">10</span><span class="flatpickr-day" aria-label="May 11, 2026" tabindex="-1">11</span><span class="flatpickr-day today" aria-label="May 12, 2026" aria-current="date" tabindex="-1">12</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 13, 2026">13</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 14, 2026">14</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 15, 2026">15</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 16, 2026">16</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 17, 2026">17</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 18, 2026">18</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 19, 2026">19</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 20, 2026">20</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 21, 2026">21</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 22, 2026">22</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 23, 2026">23</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 24, 2026">24</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 25, 2026">25</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 26, 2026">26</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 27, 2026">27</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 28, 2026">28</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 29, 2026">29</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 30, 2026">30</span><span class="flatpickr-day flatpickr-disabled" aria-label="May 31, 2026">31</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 1, 2026">1</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 2, 2026">2</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 3, 2026">3</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 4, 2026">4</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 5, 2026">5</span><span class="flatpickr-day nextMonthDay flatpickr-disabled" aria-label="June 6, 2026">6</span></div></div></div></div></div>
+                    
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

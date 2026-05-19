@@ -20,7 +20,7 @@ class ClientsTable
         return $table
         ->query(
             User::query()
-                ->where('user_type', 'client')
+                ->where('user_type', 'user')
                 ->withoutGlobalScopes([
                     SoftDeletingScope::class,
                 ])
