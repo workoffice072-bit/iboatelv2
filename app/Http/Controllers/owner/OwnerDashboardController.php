@@ -17,4 +17,13 @@ class OwnerDashboardController extends Controller
     public function changePasswordPost(Request $request){
 
     }
+    public function viewBankDetails(){
+       return view('owner.bankDetails');
+    }
+    public function bankDetailsPost(Request $request){
+
+    }
+    public function viewEditProfile(){
+        return view('owner.viewEditProfile'); 
+    }
 }

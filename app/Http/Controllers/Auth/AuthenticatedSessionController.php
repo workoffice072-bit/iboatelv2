@@ -38,7 +38,7 @@ class AuthenticatedSessionController extends Controller
             return redirect()->route('partner.dashboard');
         }
     
-        if ($user->user_type === 'guest') {
+        if ($user->user_type === 'user') {
             return redirect()->route('guest.dashboard');
         }
     

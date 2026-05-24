@@ -58,4 +58,7 @@ class HomeController extends Controller
     {
         return view('home.help');
     }
+    public function yeachtchater_details(){
+        return view('home.yeachtchater_details');
+    }
 }

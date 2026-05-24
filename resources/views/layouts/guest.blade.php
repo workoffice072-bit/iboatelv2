@@ -24,9 +24,14 @@
         <link rel="stylesheet" href="{{ asset('website/css/login.css')}}">
         <link rel="stylesheet" href="{{ asset('website/css/signup.css')}}">
         <link rel="stylesheet" href="{{ asset('website/css/yachtcharter.css')}}">
-        <link rel="stylesheet" href="{{ asset('website/css/ownerDashboard.css')}}">
+        
         @if(auth()->check())
+        @if(auth()->user()->user_type=="owner")
         <link rel="stylesheet" href="{{ asset('website/css/ownerDashboard.css')}}">
+        @endif
+        @if(auth()->user()->user_type=="user")
+        <link rel="stylesheet" href="{{ asset('website/css/guestDashboard.css')}}">
+        @endif
         @endif
        
         @stack('styles')
@@ -44,15 +49,21 @@
                 <script src="{{ asset('website/js/fr.js')}}"></script>
                 <script src="{{ asset('website/js/jquery-3.6.0.min.js')}}"></script>
                  <script src="{{ asset('website/js/select2.min.js')}}"></script>
-            
+                 
                 <script src="{{ asset('website/js/home.js')}}"></script>
+                @if(auth()->check())
+                @if(auth()->user()->user_type=="owner")
+                 <script src="{{ asset('website/js/ownerDashboard.js')}}"></script>
+                 @endif
+                 @if(auth()->user()->user_type=="user")
+                 <script src="{{ asset('website/js/guestDashboard.js.js')}}"></script>
+                @endif
+                @endif
                 <script src="{{ asset('website/js/login.js')}}"></script>
                 <script src="{{ asset('website/js/signup.js')}}"></script>
                 <script src="{{ asset('website/js/yachtcharter.js')}}"></script>
                 <script src="{{ asset('website/js/jquery-ui.min.js')}}"></script>
-                @if(auth()->check())
-                <script src="{{ asset('website/js/ownerDashboard.js')}}"></script>
-               @endif
+               
                 @stack('scripts')
     </body>
 </html>
